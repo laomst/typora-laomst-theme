@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Hack';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Hack'), url('./hack-regular.woff') format('woff');
+}

@@ -1,0 +1,65 @@
+/* 标题增强的引用快，引用快自成体系，可以附带自己的标题 */
+
+blockquote {
+    margin: 0.8em 0;
+    border-left: 4px solid #42b983;
+    padding: 10px 15px;
+    color: #777;
+    background-color: rgba(66, 185, 131, .1);
+}
+
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+blockquote h1,
+blockquote h2,
+blockquote h3,
+blockquote h4,
+blockquote h5,
+blockquote h6 {
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: none;
+    background-color: none;
+    border-left: none;
+    border-radius: 0px;
+    text-shadow: none;
+    box-shadow: inherit;
+    white-space: nowrap;
+    overflow-x: auto;
+    border-bottom: 2px solid #42b983;
+}
+
+blockquote h1 span,
+blockquote h2 span,
+blockquote h3 span,
+blockquote h4 span,
+blockquote h5 span,
+blockquote h6 span {
+    /*增加对h3标题字体的修改*/
+    display: inline-block;
+    font-weight: normal;
+    background: #42b983;
+    color: #ffffff;
+    padding: 7px 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-right: 0px;
+}
+
+blockquote h3.md-focus:before,
+blockquote h4.md-focus:before,
+blockquote h5.md-focus:before,
+blockquote h6.md-focus:before,
+blockquote h1::before,
+blockquote h2::before,
+blockquote h3::before,
+blockquote h4::before,
+blockquote h5::before,
+blockquote h6::before {
+    background-color: none !important;
+    content: '' !important;
+}

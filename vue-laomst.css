@@ -1,0 +1,75 @@
+/* 字体 */
+@import './vue-laomst/font-family/fonts.css';
+/* 标题样式 */
+@import './vue-laomst/headline/headline.css';
+/* 引用块 */
+@import './vue-laomst/blockquote/blockquote.css';
+/* 代码块 */
+@import './vue-laomst/code-block/code-block.css';
+/* 单行代码 */
+@import './vue-laomst/code-line/code-line.css';
+/* 列表 */
+@import './vue-laomst/ul-ol/ul-ol.css';
+/* 表格 */
+@import './vue-laomst/table/table.css';
+/* 超链接 */
+@import './vue-laomst/a/a.css';
+/* 脚注 */
+@import './vue-laomst/foot-note/foot-note.css';
+
+:root {
+    --side-bar-bg-color: #fff;
+    --control-text-color: rgb(49, 47, 47);
+    --my-favorate-fonts: 'Hack', 'Roboto Mono';
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: var(--my-favorate-fonts);
+    color: #34495e;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6rem;
+    letter-spacing: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+#write {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 700px;
+    /*用来把文末顶下去，这样看起来会舒服一些，可以根据个人习惯进行调整*/
+    padding: 20px 30px 50px;
+    word-spacing: 2px;
+    /*词间距*/
+    letter-spacing: 2px;
+    /*字符间距*/
+}
+
+#write>p:first-child:empty {
+    position: static;
+}
+
+#write p {
+    line-height: 1.6rem;
+    word-spacing: .05rem;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+
+    pre {
+        word-wrap: break-word;
+    }
+}

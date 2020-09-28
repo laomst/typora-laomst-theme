@@ -1,0 +1,154 @@
+/* CodeMirror Dracula theme */
+.cm-s-inner {
+    border: 1px solid var(--accent-color) !important;
+    border-radius: .25rem;
+    font-family: 'Hack' !important;
+}
+
+.cm-s-inner.CodeMirror,
+.cm-s-inner .CodeMirror-gutters {
+    background-color: #212425 !important;
+    color: #f8f8f2 !important;
+    border: none;
+}
+
+.CodeMirror {
+    height: 300px;
+    height: auto;
+}
+
+.CodeMirror-lines {
+    padding: 4px 0;
+    /* Vertical padding around content */
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid green;
+    z-index: 3;
+}
+
+.cm-s-inner .CodeMirror-gutters {
+    background-color: #0d0e0f !important;
+    border-right: 1px solid #444;
+    border-radius: 4px;
+    width: 5ch;
+    color: #5c5d5c !important;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.cm-s-inner .CodeMirror-cursor {
+    border-left: solid rgb(96, 255, 96) !important;
+}
+
+.cm-s-inner .CodeMirror-linenumber {
+    color: #5c5d5c;
+    font-weight: bold;
+    width: 4ch !important;
+}
+
+.cm-s-inner .CodeMirror-line::selection,
+.cm-s-inner .CodeMirror-line::-moz-selection,
+.cm-s-inner .CodeMirror-line>span::selection,
+.cm-s-inner .CodeMirror-line>span::-moz-selection,
+.cm-s-inner .CodeMirror-line>span>span::selection,
+.cm-s-inner .CodeMirror-line>span>span::-moz-selection {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.cm-s-inner span.cm-comment {
+    color: #969896;
+}
+
+.cm-s-inner span.cm-string,
+.cm-s-inner span.cm-string-2 {
+    color: #e4eb9b;
+}
+
+.cm-s-inner span.cm-number {
+    color: #c7b2e4;
+}
+
+.cm-s-inner span.cm-variable,
+.cm-s-inner span.cm-variable-2 {
+    /* color: #50fa7b; */
+    /* color: #a8b151; */
+    color: #81a2be;
+}
+
+.cm-s-inner span.cm-def {
+    color: white;
+}
+
+.cm-s-inner span.cm-operator {
+    color: #ff79c6;
+}
+
+.cm-s-inner span.cm-keyword {
+    color: #e79ac6;
+    color: #b294bb;
+}
+
+.cm-s-inner span.cm-atom {
+    color: #bd93f9;
+}
+
+.cm-s-inner span.cm-meta {
+    color: #f8f8f2;
+}
+
+.cm-s-inner span.cm-tag {
+    color: #8abeb7;
+}
+
+.cm-s-inner span.cm-attribute {
+    color: #91eba7;
+}
+
+.cm-s-inner span.cm-qualifier {
+    color: #82ee9d;
+}
+
+.cm-s-inner span.cm-property {
+    /* color: #66d9ef; */
+    color: #7091b1;
+    color: #81a2be;
+}
+
+.cm-s-inner span.cm-builtin {
+    color: #8ffaaa;
+}
+
+.cm-s-inner span.cm-variable-3,
+.cm-s-inner span.cm-type {
+    color: #f1c290;
+}
+
+.md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.cm-s-inner .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
+}
+
+.cm-s-inner .CodeMirror-selected,
+.cm-s-inner .CodeMirror-selectedtext {
+    background: #3b4254 !important;
+    color: inherit;
+    text-shadow: none;
+}
+
+#write .md-fences {
+    border: 1px solid #F4F4F4;
+    -webkit-font-smoothing: initial;
+    margin: 0.8rem 0 !important;
+    padding: 0.3rem 0 !important;
+    line-height: 1.43rem;
+    background-color: #F8F8F8 !important;
+    border-radius: 2px;
+    font-family: "Hack";
+    font-size: 0.85rem;
+    word-wrap: normal;
+}

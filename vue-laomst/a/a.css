@@ -1,0 +1,8 @@
+/* 超链接样式 */
+
+a {
+    color: #42b983;
+    font-weight: 600;
+    padding: 0 2px;
+    text-decoration: none;
+}

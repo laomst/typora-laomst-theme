@@ -1,0 +1,14 @@
+/* 单行代码样式 */
+code {
+    font-size: inherit !important;
+    background: inherit !important;
+}
+
+#write code{
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-family: var(--my-favorate-fonts);
+    font-size: 0.92rem;
+    color: #e96900;
+    background-color: #f8f8f8;
+}

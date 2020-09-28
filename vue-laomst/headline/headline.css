@@ -1,0 +1,20 @@
+/* 可以在这里替换标题的样式 */
+
+@import './cool-headline.css';
+
+
+h1 tt,
+h1 code,
+h2 tt,
+h2 code,
+h3 tt,
+h3 code,
+h4 tt,
+h4 code,
+h5 tt,
+h5 code,
+h6 tt,
+h6 code
+{
+    font-size: inherit !important;
+}
